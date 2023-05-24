@@ -1,0 +1,27 @@
+@use 'sass:color';
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+// #Screen Sizes
+$mobileSz: 375px;
+$desktopSz: 1440px;
+
+// #Colors
+// Primary
+$softBlue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+
+// Neutral
+$veryDarkBlueMain: hsl(217, 54%, 11%);
+$veryDarkBlueCard: hsl(216, 50%, 16%);
+$veryDarkBlueLine: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+
+// Custom
+$darkenedDarkBlue: darken($veryDarkBlueMain, 10%);
+
+// #Typography
+// Font Size
+$bodyFz: 18px;
+
+// Font Family
+$outfit: 'Outfit', Arial, sans-serif;
